@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="StravaGPX" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" xmlns="http://www.topografix.com/GPX/1/1">
+ <metadata>
+  <name>triathlon_swim</name>
+  <author>
+   <name>Leo Alho</name>
+   <link href="https://www.strava.com/athletes/66825490"/>
+  </author>
+  <copyright author="OpenStreetMap contributors">
+   <year>2020</year>
+   <license>https://www.openstreetmap.org/copyright</license>
+  </copyright>
+  <link href="https://www.strava.com/routes/3108455518625742956"/>
+ </metadata>
+ <trk>
+  <name>triathlon_swim</name>
+  <link href="https://www.strava.com/routes/3108455518625742956"/>
+  <type>Ride</type>
+  <trkseg>
+   <trkpt lat="60.32692000000001" lon="23.846420000000002">
+    <ele>80.94000000000001</ele>
+   </trkpt>
+   <trkpt lat="60.32776250211949" lon="23.846136301261794">
+    <ele>63.0</ele>
+   </trkpt>
+   <trkpt lat="60.32860500363474" lon="23.845852587879442">
+    <ele>63.0</ele>
+   </trkpt>
+   <trkpt lat="60.32944750454569" lon="23.845568859851696">
+    <ele>63.0</ele>
+   </trkpt>
+   <trkpt lat="60.33029000485231" lon="23.845285117177312">
+    <ele>63.0</ele>
+   </trkpt>
+   <trkpt lat="60.331132504554525" lon="23.845001359855043">
+    <ele>63.0</ele>
+   </trkpt>
+   <trkpt lat="60.33197500365229" lon="23.844717587883636">
+    <ele>63.0</ele>
+   </trkpt>
+   <trkpt lat="60.33281750214559" lon="23.844433801261857">
+    <ele>63.0</ele>
+   </trkpt>
+   <trkpt lat="60.33366" lon="23.844150000000003">
+    <ele>63.0</ele>
+   </trkpt>
+   <trkpt lat="60.332830001629304" lon="23.844398794279797">
+    <ele>63.0</ele>
+   </trkpt>
+   <trkpt lat="60.33200000279401" lon="23.844647575905796">
+    <ele>63.0</ele>
+   </trkpt>
+   <trkpt lat="60.33117000349413" lon="23.84489634487907">
+    <ele>63.0</ele>
+   </trkpt>
+   <trkpt lat="60.330340003729724" lon="23.84514510120068">
+    <ele>63.0</ele>
+   </trkpt>
+   <trkpt lat="60.329510003500864" lon="23.845393844871683">
+    <ele>63.0</ele>
+   </trkpt>
+   <trkpt lat="60.32868000280752" lon="23.84564257589315">
+    <ele>63.0</ele>
+   </trkpt>
+   <trkpt lat="60.32785000164981" lon="23.84589129426614">
+    <ele>63.0</ele>
+   </trkpt>
+   <trkpt lat="60.327020000000005" lon="23.846140000000002">
+    <ele>63.0</ele>
+   </trkpt>
+  </trkseg>
+ </trk>
+</gpx>

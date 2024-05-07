@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <title>Alho-triathlon</title>
+    <link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>ALHO-TRIATHLON II</h2>
+        <a class="header_link" href="./">Etusivu</a>
+        <a class="header_link" href="./kartta.html">Reitti</a>
+        <a class="header_link" href="./tulokset.html">Tulokset</a>
+      </div>
+      <div class="text">
+        <div>Vuoden 2023 reitti:</div>
+        Osiot:
+        <input type="checkbox" id="uinti" name="uinti" checked />
+        <label for="uinti">Uinti</label>
+        <input type="checkbox" id="pyora" name="pyora" checked />
+        <label for="pyora">Pyöräily</label>
+        <input type="checkbox" id="juoksu" name="juoksu" checked />
+        <label for="juoksu">Juoksu</label>
+        <div>
+          Juoksu- ja uintiosuudet ovat kartalla päätepisteeseen ja takaisin.
+        </div>
+      </div>
+      <div>
+        <div id="map"></div>
+      </div>
+    </div>
+    <script src="./js/GPXParser.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+html {
+  text-align: left;
+  font-size: 18px;
+  font-family: "Roboto Flex", sans-serif;
+  background-color: #f0f0f0;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+textarea {
+  resize: none;
+}
+.header_link:link {
+  color: white;
+}
+.header_link:visited {
+  color: white;
+}
+.kysymys {
+  color: #fc5400;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+.reitti {
+  margin: auto;
+}
+.container {
+  margin: auto;
+  width: 1000px;
+}
+h2 {
+  text-align: center;
+}
+#map {
+  width: 1000px;
+  height: 600px;
+}
+.header {
+  background-color: #fc5400;
+  color: white;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.text {
+  padding: 10px;
+  background-color: white;
+  overflow-x: scroll;
+}
+#tulokset {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tulokset td,
+#tulokset th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tulokset tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#tulokset tr:hover {
+  background-color: #ddd;
+}
+
+#tulokset th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #fc5400;
+  color: white;
+  border: 0px;
+}
+@media (max-width: 1000px) {
+  body {
+    margin: 0;
+  }
+  .container {
+    width: 100%;
+  }
+  .text {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  #map {
+    width: 100%;
+  }
+}
